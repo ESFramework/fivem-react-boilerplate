@@ -1,0 +1,61 @@
+/*edited by SuperCoolNinja*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  user-select: none;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 62.5%;
+}
+
+//For Large Laptops
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 7rem;
+    color: rgb(102, 177, 173);
+  }
+}
+
+//For Big TV's (HD Screens)
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 7rem;
+    color: orange;
+  }
+}
+
+//Higher Resolution Screens (Full HD)
+@media screen and (min-width: 1900px) {
+  html {
+    font-size: 7rem;
+    color: green;
+  }
+}
+
+//For 2K Displays (Ultra HD)
+@media screen and (min-width: 2560px) {
+  html {
+    font-size: 7rem;
+    color: blue;
+  }
+}
+
+//For 4K Displays (Ultra HD)
+@media screen and (min-width: 3840px) {
+  html {
+    font-size: 7rem;
+    color: red;
+  }
+}
